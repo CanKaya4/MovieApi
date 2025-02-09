@@ -13,8 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{A5067548-10CA-4366-8308-0013864B9651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\MovieApi.Domain\MovieApi.Domain.csproj", "{42A01774-76F8-44E5-9138-D8108214ADB9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42A01774-76F8-44E5-9138-D8108214ADB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A01774-76F8-44E5-9138-D8108214ADB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A01774-76F8-44E5-9138-D8108214ADB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A01774-76F8-44E5-9138-D8108214ADB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42A01774-76F8-44E5-9138-D8108214ADB9} = {8425E89E-FFCD-424D-958C-DD018AC29D00}
 	EndGlobalSection
 EndGlobal
